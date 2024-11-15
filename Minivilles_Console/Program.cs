@@ -1,7 +1,12 @@
-﻿public class Program
+﻿using System;
+
+namespace MiniVilles
 {
-    public class Main()
+    class Program
     {
-        
+        static void Main(string[] args)
+        {
+            Game g = new Game();
+        }
     }
 }
